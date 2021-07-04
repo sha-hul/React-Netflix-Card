@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #eee;
+}
+h1{
+  position: static;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.heading{
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  color: red;
+  background-color: #bbb;
+  margin: 0;
+  padding: 10px 0px;
+  /* text-decoration: underline; */
+}
+.card{
+  width: 250px;
+background-color: #fff;
+float: left;
+padding: 10px;
+margin: 20px;
+border: 0px solid black;
+border-radius: 4px;
+box-shadow: 0px 0px 6px black;
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+transition: 800ms transform;
+}
+.card:hover{
+transform: translateY(-10px);
+}
+.card img{
+  width: 100%;
+  height: 230px;
+}
+.card_title{
+  cursor: default;
+  margin: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.watchNow {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: fantasy;
+  transition: 800ms all;
+}
+.watchNow:hover{
+  box-shadow: 0px 0px 8px black;
+  transform: rotate(5deg);
+}
